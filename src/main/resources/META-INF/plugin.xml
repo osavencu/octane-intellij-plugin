@@ -18,9 +18,7 @@
   -->
 
   <extensions defaultExtensionNs="com.intellij">
-
-    <toolWindow factoryClass="com.hpe.adm.octane.intellijplugin.ui.panels.MainToolWindowlFactory" anchor="bottom" icon="/images/Octane_logo.png" secondary="true" id="HPE ALM Octane"/>
-
+    <toolWindow factoryClass="com.hpe.adm.octane.intellijplugin.ui.panels.MainToolWindowlFactory" anchor="bottom" icon="/images/octane-logo-small.png" secondary="true" id="HPE ALM Octane"/>
   </extensions>
 
   <application-components>
