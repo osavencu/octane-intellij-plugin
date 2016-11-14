@@ -1,13 +1,11 @@
 package com.hpe.adm.octane.ideplugins.services;
 
 import com.hpe.adm.nga.sdk.NGA;
+import com.hpe.adm.nga.sdk.authorisation.BasicAuthorisation;
 import com.hpe.adm.nga.sdk.model.EntityModel;
 
 import java.util.Collection;
 
-/**
- * Created by tothan on 11/14/2016
- */
 public class TestService {
 
     private NGA nga;
@@ -21,7 +19,7 @@ public class TestService {
         ConnectionSettings connectionSettings = ConnectionSettings.getInstance();
 
         NGA.Builder builder = new NGA
-                .Builder(connectionSettings.getAuthorisation())
+                .Builder(new BasicAuthorisation(connectionSettings.getUserName(), connectionSettings.getPassword()))
                 .Server(connectionSettings.getBaseUrl())
                 .sharedSpace(connectionSettings.getSharedSpaceId())
                 .workSpace(connectionSettings.getWorkspaceId());
