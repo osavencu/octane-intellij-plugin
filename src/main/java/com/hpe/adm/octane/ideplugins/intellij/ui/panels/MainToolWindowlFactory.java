@@ -1,4 +1,4 @@
-package com.hpe.adm.octane.intellijplugin.ui.panels;
+package com.hpe.adm.octane.ideplugins.intellij.ui.panels;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.wm.ToolWindow;
