@@ -10,7 +10,7 @@
     <children>
       <component id="484d3" class="javax.swing.JLabel" binding="welcomeScreeMessage">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <horizontalTextPosition value="0"/>
@@ -27,10 +27,12 @@
       </component>
       <component id="a6212" class="javax.swing.JLabel" binding="settingsLink">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="settingsLink"/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
         </properties>
       </component>
       <component id="bf3da" class="javax.swing.JLabel" binding="octaneLogo">
