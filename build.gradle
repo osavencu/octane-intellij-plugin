@@ -14,11 +14,12 @@ repositories {
     mavenCentral()
     mavenLocal()
     maven { url 'http://dl.bintray.com/jetbrains/intellij-plugin-service' }
-    maven { url "http://mydtbld0051.hpeswlab.net:8081/nexus/content/groups/mqm-public" }
+//    This repository is not need until the SDK version is update to 1.2 version
+//    maven { url "http://mydtbld0051.hpeswlab.net:8081/nexus/content/groups/mqm-public" }
 }
 
 dependencies {
-    compile group:'com.hpe.adm.nga.sdk',name:'sdk-src', version:'1.2-SNAPSHOT'
+    compile group: 'com.hpe.adm.nga.sdk', name: 'sdk-src', version: '1.2-SNAPSHOT'
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
 intellij {
