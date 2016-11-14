@@ -61,10 +61,6 @@ public class ConnectionSettingsConfigurable implements SearchableConfigurable {
         return true;
     }
 
-    private boolean isPasswordModified() {
-        return connectionSettingsView.isPasswordModified();
-    }
-
     @Override
     public void apply() throws ConfigurationException {
 

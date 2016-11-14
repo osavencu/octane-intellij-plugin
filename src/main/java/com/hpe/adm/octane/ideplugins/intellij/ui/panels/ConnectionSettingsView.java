@@ -10,6 +10,7 @@ public class ConnectionSettingsView {
     private JTextField txtFieldServerUrl;
 
     private JLabel lblWorkspace;
+    private JTextField txtFieldWorkspace;
 
     private JLabel lblUserName;
     private JTextField txtFieldUserName;
@@ -18,14 +19,23 @@ public class ConnectionSettingsView {
     private JPasswordField passField;
 
     private JButton btnTest;
-    private JTextField txtFieldWorkspace;
 
     public JPanel getRootPanel(){
         return rootPanel;
     }
 
-    public boolean isPasswordModified(){
-        return false;
+    public String getServerUrl(){
+        return txtFieldServerUrl.getText();
     }
+
+    public String getUserName(){
+        return txtFieldUserName.getText();
+    }
+
+    public String getPassword(){
+        return passField.getPassword().toString();
+    }
+
+    public String getWorkspace() { return txtFieldWorkspace.getText(); }
 
 }
