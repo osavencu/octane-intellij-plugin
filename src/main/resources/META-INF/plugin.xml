@@ -1,10 +1,10 @@
 <idea-plugin version="2">
-  <id>com.intellij.tutorials.module</id>
-  <name>Module Type Demo</name>
-  <version>1.0</version>
-  <vendor email="support@jetbrains.com" url="http://www.jetbrains.com">JetBrains</vendor>
+  <id>com.hpe.adm.octane.ideplugins.intellij</id>
+  <name>Octane IntelliJ Plugin</name>
+  <version>0.1</version>
+  <vendor email="support@hpe.com" url="https://www.hpe.com">Hewlett Packard Enterprise</vendor>
 
-  <description>Basic example of working with module types</description>
+  <description></description>
 
   <change-notes>Initial commit</change-notes>
 
@@ -18,7 +18,7 @@
   -->
 
   <extensions defaultExtensionNs="com.intellij">
-    <toolWindow factoryClass="com.hpe.adm.octane.ideplugins.intellij.ui.panels.WelcomePage" anchor="bottom" icon="/images/octane-logo-small.png" secondary="true" id="HPE ALM Octane"/>
+    <toolWindow factoryClass="com.hpe.adm.octane.ideplugins.intellij.ui.panels.WelcomeView" anchor="bottom" icon="/images/octane-icon-13x13.png" secondary="true" id="HPE ALM Octane"/>
   </extensions>
 
   <application-components>
