@@ -55,7 +55,7 @@ public class ConnectionSettingsConfigurable implements SearchableConfigurable {
 //            connectionSettingsView = PluginModuleManager.getInstance(ConnectionSettingsView.class);
             connectionSettingsView = new ConnectionSettingsView();
         }
-        return connectionSettingsView.getPanelSetting();
+        return connectionSettingsView.getRootPanel();
     }
 
     @Override
