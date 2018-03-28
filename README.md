@@ -13,10 +13,10 @@ gradle buildPlugin
 
 **Note:** if you are experiencing issues inside the hpe network when gradle tries to download dependencies, create a gradle.properties file in the ~/.gradle folder. Inside you need to add your hpe proxy server, ex: <br>
 ```
-systemProp.http.proxyHost=web-proxy.eu.hpecorp.net
-systemProp.http.proxyPort=8080
-systemProp.https.proxyHost=web-proxy.eu.hpecorp.net
-systemProp.https.proxyPort=8080
+systemProp.http.proxyHost=<proxy-server>
+systemProp.http.proxyPort=<port>
+systemProp.https.proxyHost=<proxy-server>
+systemProp.https.proxyPort=<port>
 ```
 ###How to debug: 
 ```
