@@ -1,9 +1,9 @@
 # alm-octane-intellij-plugin
 
-##Proof of concept:
+## Proof of concept:
 Now building old octane plugin with gradle, using the https://github.com/JetBrains/gradle-intellij-plugin
 
-###How to build:
+### How to build:
 Go to the project main folder and run: 
 ```
 gradle buildPlugin
@@ -18,7 +18,7 @@ systemProp.http.proxyPort=<port>
 systemProp.https.proxyHost=<proxy-server>
 systemProp.https.proxyPort=<port>
 ```
-###How to debug: 
+### How to debug: 
 ```
 gradle runIdea
 ```
